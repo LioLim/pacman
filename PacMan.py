@@ -8,7 +8,7 @@ pygame.display.set_caption('PacMan')
 clock=pygame.time.Clock()
 sp=pygame.image.load('graphics\spritetrans.png')
 
-vol=0
+vol=1
 pygame.mixer.music.load('sounds\pacman_beginning.wav')
 pygame.mixer.music.set_volume(vol)
 pygame.time.delay(200)
